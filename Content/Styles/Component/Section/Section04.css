@@ -1,5 +1,13 @@
 /* Common xs1, xs2 */
 /* Common sm1, sm2 tablet */
+@media all and (min-width: 768px) and (max-width: 1319px) {
+  .section-04 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media all and (min-width: 1320px) {
   .section-04 {
     margin-top: 80px;

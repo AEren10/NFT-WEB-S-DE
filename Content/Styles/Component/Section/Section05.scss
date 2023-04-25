@@ -10,7 +10,44 @@
 /* Common sm1, sm2 tablet */
 
 @media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
- 
+    .section-05{
+        margin-top: 160px;
+        .team{
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+                      
+            .team-person{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 12px;
+                padding: 16px;
+                margin: 20px;
+                h3{
+                    
+                    font-family: 'Space Grotesk';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 36px;
+                    text-align: center;
+                    color: #000000;
+                }
+                p{
+                    
+                    font-family: 'Space Grotesk';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #532C59;
+                }
+            }
+        }
+    }
+    
 }
 
 @media all and (min-width: #{$mq-md + "px"}) {

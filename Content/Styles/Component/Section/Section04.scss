@@ -10,7 +10,12 @@
 /* Common sm1, sm2 tablet */
 
 @media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
- 
+    .section-04{
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media all and (min-width: #{$mq-md + "px"}) {

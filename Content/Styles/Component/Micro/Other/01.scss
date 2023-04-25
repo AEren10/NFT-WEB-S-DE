@@ -4,40 +4,55 @@
 /* Common xs1, xs2 */
 
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
-    
 }
 
 @media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
-   
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    > h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 56px;
+      color: #000000;
+    }
+    > p {
+      font-family: "Space Grotesk";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #532c59;
+      margin-top: 24px;
+      text-align: center;
+    }
+  }
 }
 
 @media all and (min-width: #{$mq-md + "px"}) {
-    .content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;   
-        h1{
-          width: 1300px;
-          height: 64px;
-          font-family: 'Syne';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 48px;
-          line-height: 64px;
-          text-align: center;
-          color: #000000;
-        }
-        p{
-          width: 820px;
-          height: 48px;
-          font-family: 'Space Grotesk';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 24px;
-          text-align: center;
-          color: #532C59;
-          margin-top: 24px;
-        }  
-      }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    > h1 {
+      font-family: "Syne";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 64px;
+      text-align: center;
+      color: #000000;
+    }
+    > p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #532c59;
+      margin-top: 24px;
+    }
+  }
 }
