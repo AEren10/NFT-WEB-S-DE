@@ -15,4 +15,53 @@
 /* Common  md, lg, xl, xxl desktop*/
 
 @media all and (min-width: #{$mq-md + "px"}) {
-}
+        .footer{
+        height: 261px;
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+            .foot{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 30px;
+                
+                .item-01{
+                    display: flex;
+                    justify-content: space-between;
+                    
+                    >li{
+                        &:not(:last-child) {
+                            margin-right: 16px;
+                        }
+                        >a {
+                            display: flex;
+                            align-items: center;
+                            padding: 12px;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #000000;
+                            opacity: 0.5;
+                            transition: opacity 0.25s;
+                            &:hover {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        p{
+            height: 20px;
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            color: #000000;
+            opacity: 0.5;
+            margin-top: 30px;
+        }   
+        }
+    }

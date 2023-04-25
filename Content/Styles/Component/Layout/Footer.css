@@ -1,3 +1,50 @@
 /* Common xs1, xs2 mobil*/
 /* Common sm1, sm2 tablet */
-/* Common  md, lg, xl, xxl desktop*//*# sourceMappingURL=Footer.css.map */
+/* Common  md, lg, xl, xxl desktop*/
+@media all and (min-width: 1320px) {
+  .footer {
+    height: 261px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer .foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .footer .foot .item-01 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .foot .item-01 > li:not(:last-child) {
+    margin-right: 16px;
+  }
+  .footer .foot .item-01 > li > a {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.5;
+    transition: opacity 0.25s;
+  }
+  .footer .foot .item-01 > li > a:hover {
+    opacity: 1;
+  }
+  .footer p {
+    height: 20px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+    margin-top: 30px;
+  }
+}/*# sourceMappingURL=Footer.css.map */

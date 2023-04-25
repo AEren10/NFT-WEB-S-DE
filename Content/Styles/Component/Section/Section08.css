@@ -1,0 +1,70 @@
+/* Common xs1, xs2 */
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 1320px) {
+  .section-08 {
+    padding: 60px 0px;
+  }
+  .section-08 .c-wrapper {
+    padding: 200px 295px;
+  }
+  .section-08 .c-wrapper img {
+    position: absolute;
+    width: 1300px;
+    height: 446px;
+    left: calc(50% - 650px);
+    top: 59px;
+    background: #FCFAFF;
+    border: 1px solid #D6BCFA;
+    box-shadow: 0px 0px 20px rgba(128, 90, 213, 0.2), inset 0px 0px 50px #F8E0FA;
+    border-radius: 60px;
+  }
+  .section-08 .c-wrapper .block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 710px;
+  }
+  .section-08 .c-wrapper .block h1 {
+    width: 710px;
+    height: 64px;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+  }
+  .section-08 .c-wrapper .block p {
+    width: 710px;
+    height: 48px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+    margin-top: 16px;
+  }
+  .section-08 .c-wrapper .block button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 156px;
+    height: 52px;
+    background: #532C59;
+    border-radius: 15px;
+    margin-top: 32px;
+  }
+  .section-08 .c-wrapper .block button p {
+    width: 116px;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+}/*# sourceMappingURL=Section08.css.map */

@@ -398,13 +398,132 @@ body {
 }
 /* Common xs1, xs2 */
 /* Common sm1, sm2 tablet */
+@media all and (min-width: 1320px) {
+  .section-07 .c-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+    margin-top: 80px;
+  }
+  .section-07 .c-wrapper .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 412px;
+  }
+  .section-07 .c-wrapper .faq h1 {
+    width: 412px;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+  }
+  .section-07 .c-wrapper .faq p {
+    width: 412px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+  }
+  .section-07 .c-wrapper .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+    gap: 32px;
+    width: 856px;
+  }
+  .section-07 .c-wrapper .row .card {
+    display: flex;
+    padding: 24px;
+    gap: 12px;
+    width: 412px;
+    height: 100px;
+    border: 1px solid #D6BCFA;
+    border-radius: 15px;
+  }
+}
+/* Common xs1, xs2 */
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 1320px) {
+  .section-08 {
+    padding: 60px 0px;
+  }
+  .section-08 .c-wrapper {
+    padding: 200px 295px;
+  }
+  .section-08 .c-wrapper img {
+    position: absolute;
+    width: 1300px;
+    height: 446px;
+    left: calc(50% - 650px);
+    top: 59px;
+    background: #FCFAFF;
+    border: 1px solid #D6BCFA;
+    box-shadow: 0px 0px 20px rgba(128, 90, 213, 0.2), inset 0px 0px 50px #F8E0FA;
+    border-radius: 60px;
+  }
+  .section-08 .c-wrapper .block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 710px;
+  }
+  .section-08 .c-wrapper .block h1 {
+    width: 710px;
+    height: 64px;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+  }
+  .section-08 .c-wrapper .block p {
+    width: 710px;
+    height: 48px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+    margin-top: 16px;
+  }
+  .section-08 .c-wrapper .block button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 156px;
+    height: 52px;
+    background: #532C59;
+    border-radius: 15px;
+    margin-top: 32px;
+  }
+  .section-08 .c-wrapper .block button p {
+    width: 116px;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+}
 /* Common xs1, xs2 mobil*/
 /* Common sm1, sm2 tablet */
 /* Common  md, lg, xl, xxl desktop*/
 @media all and (min-width: 1320px) {
   .header-01 {
     height: 76px;
-    box-sizing: border-box;
     background-color: #FFFFFF;
     border-bottom: 1px solid #F8E0FB;
     display: flex;
@@ -440,6 +559,53 @@ body {
 /* Common xs1, xs2 mobil*/
 /* Common sm1, sm2 tablet */
 /* Common  md, lg, xl, xxl desktop*/
+@media all and (min-width: 1320px) {
+  .footer {
+    height: 261px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer .foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .footer .foot .item-01 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .foot .item-01 > li:not(:last-child) {
+    margin-right: 16px;
+  }
+  .footer .foot .item-01 > li > a {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.5;
+    transition: opacity 0.25s;
+  }
+  .footer .foot .item-01 > li > a:hover {
+    opacity: 1;
+  }
+  .footer p {
+    height: 20px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+    margin-top: 30px;
+  }
+}
 /* Common xs1, xs2 */ /* Common xs1, xs2 */
 @media all and (max-width: 767px) {
   .Cards-02 {
