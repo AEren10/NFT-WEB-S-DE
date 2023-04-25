@@ -1,0 +1,33 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+  
+}
+
+/* Common sm1, sm2 tablet */
+
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+ 
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+  .section-02{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      .c-wrapper{
+        height: 40px;
+        .logo{
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+        }
+      }
+  }
+}
+
+

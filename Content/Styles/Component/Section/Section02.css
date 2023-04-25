@@ -1,0 +1,18 @@
+/* Common xs1, xs2 */
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 1320px) {
+  .section-02 {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-02 .c-wrapper {
+    height: 40px;
+  }
+  .section-02 .c-wrapper .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}/*# sourceMappingURL=Section02.css.map */

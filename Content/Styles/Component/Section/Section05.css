@@ -1,0 +1,10 @@
+/* Common xs1, xs2 */
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 1320px) {
+  .section-05 {
+    margin-top: 140px;
+  }
+  .section-05 .team {
+    margin-top: 60px;
+  }
+}/*# sourceMappingURL=Section05.css.map */
