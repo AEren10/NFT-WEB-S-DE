@@ -1,4 +1,53 @@
 /* Common xs1, xs2 mobil*/
+@media all and (max-width: 767px) {
+  .header-01 {
+    height: 76px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #F8E0FB;
+    display: flex;
+    align-items: center;
+  }
+  .header-01 .c-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .header-01 .c-wrapper .burger {
+    display: block;
+    justify-content: flex-start;
+  }
+  .header-01 .c-wrapper .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .header-01 .c-wrapper .navbar .item-01 {
+    display: none;
+    justify-content: space-between;
+  }
+  .header-01 .c-wrapper .navbar .item-01 > li:not(:last-child) {
+    margin-right: 16px;
+  }
+  .header-01 .c-wrapper .navbar .item-01 > li > a {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.5;
+    transition: opacity 0.25s;
+  }
+  .header-01 .c-wrapper .navbar .item-01 > li > a:hover {
+    opacity: 1;
+  }
+  .header-01 .c-wrapper .navbar .page {
+    align-items: center;
+    justify-content: center;
+  }
+}
 /* Common sm1, sm2 tablet */
 @media all and (min-width: 768px) and (max-width: 1319px) {
   .header-01 {

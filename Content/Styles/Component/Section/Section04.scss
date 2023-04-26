@@ -4,7 +4,12 @@
 /* Common xs1, xs2 */
 
 @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
-  
+    .section-04{
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* Common sm1, sm2 tablet */

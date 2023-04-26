@@ -1,4 +1,116 @@
 /* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .section-01 {
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+  }
+  .section-01 .picture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .section-01 .picture .bg-image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .section-01 .c-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-01 .c-wrapper .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 856px;
+    height: 372px;
+    left: calc(50% - 428px);
+    top: 48px;
+  }
+  .section-01 .c-wrapper .content .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 288px;
+    height: 304px;
+  }
+  .section-01 .c-wrapper .content .text > h1 {
+    width: 288px;
+    height: 168px;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+    text-shadow: -5px 5px 0px #FFFFFF;
+  }
+  .section-01 .c-wrapper .content .text .paraf {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    gap: 10px;
+    width: 288px;
+    height: 120px;
+  }
+  .section-01 .c-wrapper .content .text .paraf > p {
+    width: 288px;
+    height: 120px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+  }
+  .section-01 .c-wrapper .content > button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 114px;
+    height: 44px;
+    background: #532C59;
+    border-radius: 15px;
+  }
+  .section-01 .c-wrapper .content > button > span {
+    width: 74px;
+    height: 20px;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  .section-01::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.4;
+    filter: blur(116px);
+  }
+}
 /* Common sm1, sm2 tablet */
 @media all and (min-width: 768px) and (max-width: 1319px) {
   .section-01 {

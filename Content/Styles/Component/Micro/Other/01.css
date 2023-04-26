@@ -1,4 +1,29 @@
 /* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .content > h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+    text-align: center;
+  }
+  .content > p {
+    font-family: "Space Grotesk";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532c59;
+    margin-top: 8px;
+    text-align: center;
+  }
+}
 @media all and (min-width: 768px) and (max-width: 1319px) {
   .content {
     display: flex;

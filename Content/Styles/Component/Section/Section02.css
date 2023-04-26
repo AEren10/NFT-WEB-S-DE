@@ -1,4 +1,25 @@
 /* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .section-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-02 .c-wrapper .logo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .section-02 .c-wrapper .logo a {
+    padding-top: 15px;
+  }
+  .section-02 .c-wrapper .logo a svg {
+    width: 85px;
+  }
+}
 /* Common sm1, sm2 tablet */
 @media all and (min-width: 768px) and (max-width: 1319px) {
   .section-02 {
