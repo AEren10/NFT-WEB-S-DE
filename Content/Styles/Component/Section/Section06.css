@@ -1,4 +1,74 @@
 /* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .section-06 {
+    margin-top: 80px;
+  }
+  .section-06 .c-wrapper .twitter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-top: 32px;
+  }
+  .section-06 .c-wrapper .twitter .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    background: #FFFFFF;
+    border: 1px solid #D6BCFA;
+    border-radius: 10px;
+  }
+  .section-06 .c-wrapper .twitter .card .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .section-06 .c-wrapper .twitter .card .container .profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .section-06 .c-wrapper .twitter .card .container .profile .profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .section-06 .c-wrapper .twitter .card .container .profile .profile-content h5 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .section-06 .c-wrapper .twitter .card .container .profile .profile-content p {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+  }
+  .section-06 .c-wrapper .twitter .card .container .text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+  }
+  .section-06 .c-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(252, 250, 255, 0) 0%, #FCFAFF 88.54%);
+  }
+}
 /* Common sm1, sm2 tablet */
 @media all and (min-width: 768px) and (max-width: 1319px) {
   .section-06 {
