@@ -1617,6 +1617,9 @@ body {
     opacity: 0.5;
     margin-top: 40px;
   }
+  .footer-02 {
+    display: none;
+  }
 }
 /* Common  md, lg, xl, xxl desktop*/
 @media all and (min-width: 1320px) {
@@ -1668,6 +1671,9 @@ body {
     color: #000000;
     opacity: 0.5;
     margin-top: 40px;
+  }
+  .footer-02 {
+    display: none;
   }
 }
 /* Common xs1, xs2 */ /* Common xs1, xs2 */ /* Common xs1, xs2 */

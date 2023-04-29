@@ -101,6 +101,9 @@
     opacity: 0.5;
     margin-top: 40px;
   }
+  .footer-02 {
+    display: none;
+  }
 }
 /* Common  md, lg, xl, xxl desktop*/
 @media all and (min-width: 1320px) {
@@ -152,5 +155,8 @@
     color: #000000;
     opacity: 0.5;
     margin-top: 40px;
+  }
+  .footer-02 {
+    display: none;
   }
 }/*# sourceMappingURL=Footer.css.map */
